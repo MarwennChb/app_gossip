@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
   #get 'gossips/new', to:'gossips#new'
 
+  root to:'gossips#index'
+
   resources :gossips
 
   #root to:'gossips#index'
